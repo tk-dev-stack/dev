@@ -1,0 +1,29 @@
+.apiFormContainer {
+  margin-bottom: 1rem;
+}
+
+.container {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.tableContainer .ant-table-wrapper {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.setOptionsContainer {
+  margin-top: 16px;
+  text-align: right; 
+}
+
+/* .dropdown__config_form{
+    display: flex;
+    justify-content: space-betw;
+} */
+ .addButtonContainer{
+  display: flex;
+  align-items: center;
+ }

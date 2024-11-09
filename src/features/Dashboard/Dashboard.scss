@@ -1,0 +1,19 @@
+@import "../../GlobalStyles.scss";
+.dashboard-container {
+  height: 100%;
+}
+
+.dashboard--wrapper {
+  height: 100%;
+  .dashboard--dropdown {
+    background-color: $secondary;
+    border-radius: $panel-border-radius;
+    width: 120px;
+  }
+}
+
+.panel {
+  box-sizing: border-box;
+  padding: 10px;
+  height: 100%;
+}

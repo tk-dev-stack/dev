@@ -1,0 +1,41 @@
+.field-form--wrapper {
+  margin-top: 10px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.form__fields {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(75vh - 90px);
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+.field__add-btn {
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 10px;
+}
+.form__header {
+  margin-top: 5px;
+  padding: 5px;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.562);
+  margin-bottom: 10px;
+}
+.form__header_title {
+  font-weight: 600;
+  font-size: 16px;
+}
+.field-form {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.fieldform__submit--btn {
+  display: flex;
+  justify-content: center;
+}

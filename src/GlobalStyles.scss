@@ -1,0 +1,15 @@
+$panel-border-radius: 23px;
+$panel-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+$tab-background-color: #f7f8fa;
+$secondary: #e0f0f2;
+
+@mixin panel-box-shadow {
+  box-shadow: $panel-box-shadow;
+}
+
+@mixin panel-style {
+  padding: 16px;
+  background-color: #fff;
+  border-radius: $panel-border-radius;
+  box-shadow: $panel-box-shadow;
+}

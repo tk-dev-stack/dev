@@ -1,0 +1,49 @@
+.widget-styling__container {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  .ant-card-body {
+    padding: 0;
+  }
+}
+
+.form__field {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 1;
+}
+.styling__config__form {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.widget-styling__form {
+  .form-item {
+    margin-bottom: 24px;
+    .input-icon {
+      color: #1890ff;
+    }
+    .ant-input-prefix {
+      margin-right: 8px;
+    }
+    .ant-select {
+      width: 100%;
+    }
+    .ant-divider {
+      margin: 24px 0;
+    }
+  }
+  // .checkbox-group {
+  //   display: flex;
+  //   gap: 1rem;
+  //   align-items: center;
+  //   margin-bottom: 24px;
+  //   .ant-checkbox-inner {
+  //     border-radius: 4px;
+  //   }
+  // }
+}

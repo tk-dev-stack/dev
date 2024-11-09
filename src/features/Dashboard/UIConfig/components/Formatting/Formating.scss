@@ -1,0 +1,14 @@
+// Higher specificity to override Ant Design's checkbox style
+.styling__table .ant-checkbox .ant-checkbox-inner {
+  border-radius: 4px !important; // Adjust this value for rounded corners
+  width: 16px; // Ensures the checkbox stays square
+  height: 16px; // Ensures the checkbox stays square
+}
+.dropdown__configuration_container{
+  // display: ;
+}
+
+.mapping__container{
+  // display: flex;
+  gap:0;
+}

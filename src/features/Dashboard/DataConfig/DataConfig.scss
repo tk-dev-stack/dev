@@ -1,0 +1,22 @@
+@import "../../../GlobalStyles.scss";
+
+.dataconfig__container {
+  @include panel-style;
+  padding: 16px;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  gap: 1rem;
+}
+
+.dataconfig__search--btn {
+  @include panel-box-shadow;
+  width: 97%;
+  background-color: #ffff;
+  border-radius: $panel-border-radius;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}

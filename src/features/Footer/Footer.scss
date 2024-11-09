@@ -1,0 +1,19 @@
+@import "../../GlobalStyles.scss";
+.dashboard__footer__container {
+  height: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #ffff;
+  border-radius: $panel-border-radius;
+  box-shadow: $panel-box-shadow;
+}
+
+.dashboard__footer__item {
+  // border: 1px solid red;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

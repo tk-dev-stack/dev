@@ -1,0 +1,15 @@
+.antBasicWidgetContainer {
+  border: 1px solid lightgray;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  overflow-y: auto;
+  transition: background-color 0.3s, color 0.3s;
+}
+.widgetHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+

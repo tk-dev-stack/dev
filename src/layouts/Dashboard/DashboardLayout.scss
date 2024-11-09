@@ -1,0 +1,18 @@
+.dashboardlayout__container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboardlayout__content {
+  flex: 1;
+  height: 90%;
+  min-height: 400px;
+
+  width: 100%;
+}
+
+.dashboardlayout__footer {
+  height: 10%;
+  padding: 10px;
+}

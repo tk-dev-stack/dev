@@ -1,0 +1,71 @@
+@import "../../../GlobalStyles.scss";
+
+.uiconfig__container {
+  @include panel-style;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 16px;
+}
+
+.styling__container {
+  border-radius: $panel-border-radius;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: $tab-background-color;
+}
+
+.styling__header {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.styling__content {
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+  gap: 0.5rem;
+}
+.uiconfig__tab_container {
+  height: 100%;
+}
+
+.ui__config__mapping {
+}
+
+.ui__config__validation {
+}
+.ui__config__formatting {
+}
+
+.validation__container {
+  border-radius: $panel-border-radius;
+  padding: 16px;
+  gap: 16px;
+}
+
+.mapping__container {
+  border-radius: $panel-border-radius;
+  padding: 16px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.actions__container {
+  padding: 16px;
+}
+.actions__content {
+  background-color: $tab-background-color;
+  border-radius: $panel-border-radius;
+  padding: 16px;
+}
